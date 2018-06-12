@@ -15,7 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\scoreboard.cpp">
+    <ClInclude Include="Scoreboard.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scoreboard.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
